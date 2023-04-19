@@ -1,0 +1,43 @@
+body {
+      
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcUpgndqIjnGb0WkUxgDpcCpgWlhk1L7z0cA&usqp=CAU) no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 15x;
+  color: aliceblue;
+  
+  
+}
+form{
+  background-color: blueviolet;
+  width:50%;
+  margin: auto;
+  height: 100%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  min-height: 100%;
+  
+}
+label,textarea{
+  display: block;
+  margin: 20px 10px;
+}
+#name-label,#email-label,#number-label{
+  margin-left: 0 ;
+}
+input[type="text"], [type="email"], [type="number"], #dropdown,  #submit{
+  width:100%;
+  height: 30px;
+  border-radius: 5px;
+}
+#submit{
+  background-color: deeppink;
+}
+#title, #description{
+  text-align: center;
+  color:deeppink;
+}
+#text{
+  
+  width:80%;
+}

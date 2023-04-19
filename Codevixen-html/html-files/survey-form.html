@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="survey-form.css" />
+  </head>
+  <body>
+    <h1 id="title">CODE VIXEN SURVEY FORM</h1>
+    <p id="description">
+      Welcome to codevixen survey form, we are here to serve you better
+    </p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label"
+        >Name
+        <input
+          type="text"
+          id="name"
+          placeholder="enter your fullname"
+          required
+        />
+      </label>
+      <label for="email" id="email-label"
+        >Email
+        <input type="email" id="email" placeholder="enter email" required />
+      </label>
+      <label for="number" id="number-label"
+        >Age
+        <input
+          type="number"
+          min="18"
+          max="50"
+          id="number"
+          placeholder="input age"
+          required
+        />
+      </label>
+
+      <p>Select the option that best describes you:</p>
+      <select name="" id="dropdown">
+        <option value="" disabled selected hidden>
+          choose your current role
+        </option>
+        <option value="">Student</option>
+        <option value="">Full-time Job</option>
+        <option value="">full-time learner</option>
+        <option value="">other</option>
+      </select>
+
+      <p>Would you recommend codevixen for a friend ?</p>
+      <label for="one"
+        ><input type="radio" id="one" name="may" value="1" /> May be</label
+      >
+      <label for="two"
+        ><input type="radio" id="two" name="may" value="2" /> No</label
+      >
+      <label for="three"
+        ><input type="radio" id="three" name="may" value="3" />Yes</label
+      >
+
+      <p id="check">
+        What would you like to see improved? (Check all that apply)
+      </p>
+
+      <label for="front">
+        <input type="checkbox" id="front" value="front" /> Front-end</label
+      >
+      <label for="back">
+        <input type="checkbox" id="back" value="back" /> Back-end</label
+      >
+      <label for="py">
+        <input type="checkbox" id="py" value="py" /> Python</label
+      >
+      <label for="dat">
+        <input type="checkbox" id="dat" value="dat" /> Data-analysis</label
+      >
+
+      <p>Any recommendation or suggestion</p>
+      <textarea
+        name="text"
+        id="text"
+        cols="60"
+        rows="10"
+        placeholder="enter a comment"
+      ></textarea>
+
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
