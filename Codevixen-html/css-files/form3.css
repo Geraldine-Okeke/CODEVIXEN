@@ -1,0 +1,27 @@
+#container>:first-of-type {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  
+}
+#container{
+  width: 500px;
+  border-top: 3px black solid;
+  border-right: 1px gray solid;
+  border-left: 3px black solid;
+}
+#container *{
+margin:2px 2px 5px 2px;
+
+}
+input[type="text"], input[type="email"]{
+  width: 400px;
+  height: 30px;
+} 
+textarea{
+  width: 400px;
+}
+button{
+  width: 70px;
+}
+
