@@ -1,0 +1,30 @@
+body{
+  counter-reset: count;
+  
+}
+#container{
+  width: 70%;
+  border-right: 2px gray solid ;
+  border-left: 3px black solid;
+  border-bottom: 2px gray solid;
+  padding: 10px;
+}
+#container>:first-child{
+  background-color: blue;
+  color: white;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+  padding: 15px;
+}
+section>p::before{
+  counter-increment: count;
+  content:  counter(count) ". ";
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+}
+#container *{
+  margin-top: 10px;
+}
