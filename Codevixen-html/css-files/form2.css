@@ -1,0 +1,26 @@
+#container{
+  width: 500px;
+  border-left: 4px red solid;
+  border-right: 2px gray solid;
+  padding-left: 20px;
+}
+
+.first{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  
+}
+#first label{
+  display: inline-block;
+  width: 100px;
+}
+th{
+  font-size: 25px;
+}
+tr{
+  margin: 30px;
+}
+td{
+  margin: 50px;
+}
