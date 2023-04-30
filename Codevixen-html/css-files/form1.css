@@ -1,0 +1,59 @@
+#first{
+  display: flex;
+  flex-direction: row;
+}
+#first>div{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+
+#all-form{
+  display: flex;
+  flex-direction: row;
+}
+#all-form>div{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+  
+input{
+  margin:5px 0px
+}
+#all-form label{
+  display: inline-block;
+  width:100px;
+  
+  
+}
+#form1>div{
+  margin-bottom: 10px;
+}
+#second{
+  display: flex;
+  flex-direction: column;
+}
+#text-div>label{
+  vertical-align: top;
+}
+button{
+  width: 100px;
+  margin-left: 70PX;
+}
+#container{
+  border: 2px gray solid;
+  width: 800px;
+}
+#all-form label::before{
+  content: "*";
+}
+#first label{
+  display: inline-block;
+  width:100px;
+  
+  
+}
